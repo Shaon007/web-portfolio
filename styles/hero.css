@@ -46,7 +46,7 @@ nav{
 
 }
 .header{
-  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-image: url(images/developer.png),url(images/header_bg.png);
   background-repeat: no-repeat;
   /* max-width: 774px; */
   /* margin: 38px 0 25px 23px; */
