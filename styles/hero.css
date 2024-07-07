@@ -11,9 +11,6 @@
   background: #FFF8F3;
 }
 .btn{
-  width: 150px;
-  height: 64px;
-  /* flex-shrink: 0; */
   margin-right: 30px;
   border: none;
   border-radius: 5px;
@@ -22,7 +19,22 @@
   padding: 18px 35px;
   font-weight: bold;
   font-size: 20px;
-
+}
+.text-center{
+  text-align: center;
+}
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
 }
 nav{
   display: flex;
@@ -46,7 +58,7 @@ nav{
 
 }
 .header{
-  background-image: url(images/developer.png),url(images/header_bg.png);
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
   background-repeat: no-repeat;
   /* max-width: 774px; */
   /* margin: 38px 0 25px 23px; */
@@ -92,4 +104,70 @@ nav  a{
 }
 banner-pic{
   width: 580px;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about{
+  padding: 114px 135px;
+  border-radius: 10px ;
+  margin-top: 130px;
+  text-align: center;
+  font-family: Open Sans;
+  color: #757575;
+}
+.about-items{
+  display: flex;
+  /* gap: 50px; */
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 400;
+  color: #757575;
+
+}
+.item-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+.do-items{
+  display: flex;
+  gap: 24px;
+}
+.do-item{
+  padding:30px ;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.resume{
+  font-family: Open Sans;
+}
+.resume-container{
+  display: flex;
+  gap: 20px;
+}
+.resume-column-title{
+  color: #474747;
+  font-size: 30px;
+}
+.experience-title{
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+.experience-subtitle{
+  color:#757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience-description{
+  color: #757575;
+}
+
+.CV-button{
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 50px;
+
 }
